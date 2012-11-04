@@ -10,7 +10,9 @@ module Israel
     def call_for_papers(speaker, subject)
       # Speakers, please apply for the call for papers if you have talks on the subjects of Continuous 
       # Deployment, DevOps tooling and DevOps case studies, assuming you are available on Jan 15.
-      apply(spekaer) if ["Continuous Deployment Case Studies", "DevOps tools", "DevOps Case Studies"].include(subject) 
+      apply(spekaer) if ["Continuous Deployment Case Studies", 
+                         "DevOps tools", 
+                         "DevOps Case Studies"].include(subject) 
                         and speaker.available?(Date.new(2013,1,15))
     end
     def apply(speaker)
