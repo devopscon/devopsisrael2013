@@ -28,7 +28,7 @@ end
 
 If you need it in plain English, here goes:
 
-This repo provides means to propose speaking sessions for the 2013 Israel DevOps Summit. To submit a proposal, fork the repo, add a text file name `your-session.md` (there's a sample template named `sample-proposal.md` in this repo), and submit a pull request. Alternatively, if you're not into github, email your proposal to propose@devopscon.com. In your email, make sure to specify the following:
+This repo provides means to propose speaking sessions for the 2013 Israel DevOps Summit. To submit a proposal, fork the repo, add a text file named `your-session.md` (there's a sample template named `sample-proposal.md` in this repo), and submit a pull request. Alternatively, if you're not into github, email your proposal to propose@devopscon.com. In your email, make sure to specify the following:
 
 - Session title
 - Session abstract
