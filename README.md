@@ -1,7 +1,27 @@
 The 2013 Israel DevOps Summit 
 =============================
 
-{% gist 1474101 %}
+```ruby
+require 'speaker'
+require 'israel'
+
+module Israel
+  module DevOps
+    def call_for_papers(speaker, subject)
+      # Speakers should apply for the call for papers if they have talks on the subjects of Continuous Deployment of DevOps tooling
+      # Assuming they are available Jan 13.
+      apply(spekaer) if ["Continuous Deployment Case Studies", "DevOps tools", "DevOps Case Studies"].include(subject) and speaker.available?(Date.new(2013,1,15))
+    end
+    def apply(speaker)
+      # We prefer github, but also settle for goo-ol emails
+      if speaker.has_github?
+        speaker.make_pull_request('/devopscon/devopsisrael2013')
+      else
+        spekaer.send_mail('proposals@devopscon.com')
+    end
+  end
+end
+```
 
 If you need it in plain English, here goes:
 
