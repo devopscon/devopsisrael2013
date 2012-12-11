@@ -20,7 +20,7 @@ module Israel
       if speaker.has_github?
         speaker.make_pull_request('/devopscon/devopsisrael2013')
       else
-        spekaer.send_mail('proposals@devopscon.com')
+        speaker.send_mail('proposals@devopscon.com')
     end
   end
 end
