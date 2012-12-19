@@ -1,9 +1,8 @@
 # Instrumenting infrastructures or How I learned to relax and love the logs
 
 ## Summary
-Ever had a feeling that something is restarting in your system under your nose? Ever wanted to know what's going on without having to fish through log files?
-Ever wanted to automate based on events?
-Then instrument! by utilizing DevOps tools like Chef, Logstash, Fabric and others we can instrument system operations and make some sense of events.
+DevOps is (partly) about tools, measurements and collaboration. This session aims to show how to use Open Source tools to instrument infracstructure and gain important information which can be used for further automation.
+We will cover Logstash, Graphite and integration with Chef and various other tools.
 
 ## Misc
 A demo of the concept followed by various example of integrations, hooks, triggers and use cases
